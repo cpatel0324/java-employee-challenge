@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.reliaquest.api.ApiApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-02-07T04:11:38" hostname="Jeets-MacBook-Pro.local" time="1.898">
+  <properties/>
+  <testcase name="main_startsApplication()" classname="com.reliaquest.api.ApiApplicationTest" time="1.898"/>
+  <system-out><![CDATA[23:11:36.828 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.reliaquest.api.ApiApplicationTest]: ApiApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:11:36.953 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.reliaquest.api.ApiApplication for test class com.reliaquest.api.ApiApplicationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v3.2.10)
+
+2026-02-06T23:11:37.486-05:00  INFO 17678 --- [employee-api] [    Test worker] com.reliaquest.api.ApiApplicationTest    : Starting ApiApplicationTest using Java 17.0.18 with PID 17678 (started by jeet in /Users/jeet/IdeaProjects/java-employee-challenge/api)
+2026-02-06T23:11:37.488-05:00  INFO 17678 --- [employee-api] [    Test worker] com.reliaquest.api.ApiApplicationTest    : No active profile set, falling back to 1 default profile: "default"
+2026-02-06T23:11:38.820-05:00  INFO 17678 --- [employee-api] [    Test worker] com.reliaquest.api.ApiApplicationTest    : Started ApiApplicationTest in 1.683 seconds (process running for 3.256)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v3.2.10)
+
+2026-02-06T23:11:40.150-05:00  INFO 17678 --- [employee-api] [    Test worker] com.reliaquest.api.ApiApplication        : Starting ApiApplication using Java 17.0.18 with PID 17678 (started by jeet in /Users/jeet/IdeaProjects/java-employee-challenge/api)
+2026-02-06T23:11:40.150-05:00  INFO 17678 --- [employee-api] [    Test worker] com.reliaquest.api.ApiApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-02-06T23:11:40.468-05:00  INFO 17678 --- [employee-api] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8111 (http)
+2026-02-06T23:11:40.486-05:00  INFO 17678 --- [employee-api] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-06T23:11:40.487-05:00  INFO 17678 --- [employee-api] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2026-02-06T23:11:40.546-05:00  INFO 17678 --- [employee-api] [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-02-06T23:11:40.548-05:00  INFO 17678 --- [employee-api] [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 393 ms
+2026-02-06T23:11:40.719-05:00  INFO 17678 --- [employee-api] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8111 (http) with context path ''
+2026-02-06T23:11:40.723-05:00  INFO 17678 --- [employee-api] [    Test worker] com.reliaquest.api.ApiApplication        : Started ApiApplication in 0.605 seconds (process running for 5.158)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
